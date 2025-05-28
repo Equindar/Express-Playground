@@ -1,6 +1,6 @@
 import express from 'express'
 import { Request, Response } from 'express'
-import { CreateContactUseCase } from '@/core/interfaces/createContacts-usecase'
+import { CreateContactUseCase } from '@/core/interfaces/createContact-usecase'
 import { GetAllContactsUseCase } from '@/core/interfaces/getallcontacts-usecase'
 
 

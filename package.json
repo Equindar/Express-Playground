@@ -4,7 +4,8 @@
   "description": "Just messing around with Express and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --collectCoverage"
+    "test": "jest --watchAll --collectCoverage",
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "@types/supertest": "^6.0.3",
     "drizzle-kit": "^0.31.1",
     "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
     "supertest": "^7.1.0",
     "ts-jest": "^29.3.1",
     "ts-node": "^10.9.2",
